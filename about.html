@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-layout">
+
+<header>
+    <h1>About</h1>
+</header>
+
+<nav>
+    <a href="index.html" class="logo">
+        <img src="images/my-logo.jpg" alt="Website Logo">
+    </a>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+
+        <div class="search-container">
+            <form action="search.html" method="GET">
+                <input
+                    type="search"
+                    name="q"
+                    placeholder="Search..."
+                    class="search-input"
+                    list="search-suggestions"
+                >
+                <datalist id="search-suggestions">
+                    <option value="Home">
+                    <option value="About">
+                    <option value="Projects">
+                    <option value="Gallery">
+                    <option value="Blog">
+                    <option value="Contact">
+                </datalist>
+                <button type="submit" class="search-btn">🔍</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<main>
+    <section class="two-column-layout">
+
+        <div class="sidebar">
+            <h2>My Skills</h2> <!-- Changed h3 → h2 to maintain proper heading order -->
+            <table border="1">
+                <tr>
+                    <th>Skills</th>
+                    <th>Proficiency</th>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>Excel</td>
+                    <td>Advanced</td>
+                </tr>
+                <tr>
+                    <td>Access</td>
+                    <td>Intermediate</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="content-area">
+            <h2>About Me</h2>
+            <p>I am a creative thinker with a great passion for coding and innovation. As an aspiring web developer, I value computing.</p>
+            <p>Web and Multimedia Development module that BAC offers as part of my degree enhances such skills.</p>
+        </div>
+
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Orefile</p>
+</footer>
+
+</div> <!-- closes page-layout -->
+</body>
+</html>

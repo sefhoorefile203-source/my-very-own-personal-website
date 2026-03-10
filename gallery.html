@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="page-layout">
+
+    <header>
+      <h1>Gallery</h1>
+      <p>Welcome to Orefile's gallery</p>
+    </header>
+<nav>
+     <a href="index.html" class="logo">
+  <img src="images/my-logo.jpg" alt="Website Logo">
+</a>
+
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+
+        <div class="search-container">
+          <form method="GET">
+            <input type="search" name="q" placeholder="Search..." class="search-input" list="search-suggestions">
+            <datalist id="search-suggestions">
+              <option value="Home">
+              <option value="About">
+              <option value="Projects">
+              <option value="Gallery">
+              <option value="Blog">
+              <option value="Contact">
+            </datalist>
+            <button type="submit" class="search-btn">🔍 Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section>
+        <h2>My Gallery</h2>
+        <div class="gallery-grid">
+           <figure>
+            <img src="images/download.jpg" alt="Certified Coder">
+            <figcaption>This semester got me like</figcaption>
+          </figure>
+          <figure>
+            <img src="images/photo11.jpg" alt="Certified Coder">
+            <figcaption>A coder girl</figcaption>
+          </figure>
+          <figure>
+            <img src="images/photo2.jpg" alt="Graduation">
+            <figcaption>Aspirations what not</figcaption>
+          </figure>
+          <figure>
+            <img src="images/presentation.jpg" alt="Snaps after presentation">
+            <figcaption>Your typical computing students</figcaption>
+          </figure>
+          <figure>
+            <img src="images/alphacode.jpg" alt="graduation someday">
+            <figcaption>Programming aesthetics</figcaption>
+          </figure>
+           <figure>
+            <img src="images/tired.jpg" alt="Certified Coder">
+            <figcaption>A tired uni student</figcaption>
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Orefile.</p>
+    </footer>
+    </div>
+  </body>
+</html>
